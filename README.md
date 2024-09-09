@@ -1,5 +1,3 @@
-MANUAL DEPLOYMENT (FLASKAPP & MYSQL)
-
 1. INSTALL MYSQL
 sudo apt-get update
 sudo apt-get install mysql-server
@@ -7,11 +5,12 @@ sudo apt-get install mysql-server
 
 2.CONFIGURE MYSQL 
 sudo service mysql start
-mysql -u root -p
+
 -- install system dependencies
 - sudo apt-get install -y build-essential python3-dev libmysqlclient-dev
 - sudo apt-get install -y pkg-config
-
+mysql -u root -p
+then 
 {CREATE DATABASE myDb;
 USE myDb;
 
